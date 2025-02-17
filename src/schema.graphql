@@ -28,3 +28,8 @@ type Query {
     "Returns the details about this listing"
     listing(id: ID!): Listing
 }
+
+type Mutation {
+    "Creates a new listing"
+    createListing: #TODO
+}
